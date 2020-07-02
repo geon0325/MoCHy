@@ -14,5 +14,21 @@ We propose **Hypergraph Motifs (h-motifs)**, whose occurrences capture local str
 * The advanced approximated version *MoCHy-A+* is up to 25X more accurate than *MoCHy-A*, and is up to 32X faster than *MoCHy-E*.
 
 ## Datasets
-* The sample dataset is available from https://gist.github.com/pszufe/02666497d2c138d1b2de5b7f67784d2b#sec_dblp.
-* The real-world datasets used in the paper are from https://www.cs.cornell.edu/~arb/data/.
+* The sample dataset is available from [here](https://gist.github.com/pszufe/02666497d2c138d1b2de5b7f67784d2b#sec_dblp).
+* The real-world datasets used in the paper are from [here](https://www.cs.cornell.edu/~arb/data/).
+
+## Running MoCHy
+1. To run **MoCHy-E**, type:
+```
+run_exact.sh
+```
+2. To run *parallelized* **MoCHy-E, type:
+```
+python train.py
+```
+
+## Terms and Conditions
+If you use this code as part of any published research, please acknowledge our VLDB 2020 paper.
+
+## Contact Information
+If you have any questions, please contact [Geon Lee](geonlee0325@kaist.ac.kr).
