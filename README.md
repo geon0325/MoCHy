@@ -18,14 +18,12 @@ We propose **Hypergraph Motifs (h-motifs)**, whose occurrences capture local str
 * The real-world datasets used in the paper are from [here](https://www.cs.cornell.edu/~arb/data/).
 
 ## Running MoCHy
-1. To run **MoCHy-E**, type:
-```
-run_exact.sh
-```
-2. To run *parallelized* **MoCHy-E, type:
-```
-python train.py
-```
+1. To run **MoCHy-E**, type 'run_exact.sh'.
+2. To run *parallelized* **MoCHy-E**, type 'run_exact_par.sh'.
+3. To run **MoCHy-A**, type 'run_approx_ver1.sh'.
+4. To run **MoCHy-A+**, type 'run_approx_ver2.sh'.
+5. To run *parallelized* **MoCHy-A+**, type 'run_approx_ver2_par.sh'.
+6. To run *memory-bounded* **MoCHy-A+**, type 'run_approx_ver2_memory.sh'.
 
 ## Terms and Conditions
 If you use this code as part of any published research, please acknowledge our VLDB 2020 paper.
