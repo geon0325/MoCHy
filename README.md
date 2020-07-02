@@ -1,5 +1,5 @@
 # Hypergraph Motifs: Concepts, Algorithms, and Discoveries
-Source code for the paper [Hypergraph Motifs: Concepts, Algorithms, and Discoveries](https://arxiv.org/abs/2003.01853), Geon Lee, Jihoon Ko, Kijung Shin, VLDB 2020.
+Source code for the paper [Hypergraph Motifs: Concepts, Algorithms, and Discoveries](https://arxiv.org/abs/2003.01853), Geon Lee, Jihoon Ko, Kijung Shin, [VLDB 2020](https://vldb2020.org/).
 
 We proposer **Hypergraph Motifs (h-motifs)**, whose occurrences capture local structural patterns of real-world hypergraphs.
 
@@ -11,4 +11,4 @@ We proposer **Hypergraph Motifs (h-motifs)**, whose occurrences capture local st
 **MoCHy** (**Mo**tif **C**ounting in **Hy**pergraphs) is a family of parallel algorithms for counting hypergraph motifs' instances.
 * *MoCHy-E (MoCHy Exact)* exactly counts the instances of each h-motif.
 * *MoCHy-A (MoCHy Approximate)*: approximately counts the instances of each h-motif.
-* The advanced approximated version *MoCHy-A^{+}*
+* The advanced approximated version *MoCHy-A^+*
