@@ -11,13 +11,23 @@ We propose **Hypergraph Motifs (h-motifs)**, whose occurrences capture local str
 **MoCHy** (**Mo**tif **C**ounting in **Hy**pergraphs) is a family of parallel algorithms for counting hypergraph motifs' instances.
 * *MoCHy-E (MoCHy Exact)* exactly counts the instances of each h-motif.
 * *MoCHy-A (MoCHy Approximate)*: approximately counts the instances of each h-motif.
-* The advanced approximated version *MoCHy-A+* is up to 25X more accurate than *MoCHy-A*, and is up to 32X faster than *MoCHy-E*.
+* The advanced approximated version *MoCHy-A+* is up to 25X more accurate than *MoCHy-A*, and it is up to 32X faster than *MoCHy-E*.
 
 ## Datasets
-* The sample dataset is available from [here](https://gist.github.com/pszufe/02666497d2c138d1b2de5b7f67784d2b#sec_dblp).
-* The real-world datasets used in the paper are from [here](https://www.cs.cornell.edu/~arb/data/).
+* The sample dataset is available [here](https://gist.github.com/pszufe/02666497d2c138d1b2de5b7f67784d2b#sec_dblp).
+* The real-world datasets used in the paper are available [here](https://www.cs.cornell.edu/~arb/data/).
 
-## Running MoCHy
+## Input Format
+* The input format should be lines of hyperedges, where each line represents the nodes contained in each hyperedge.
+* For example, with 3 hyperedges: {0, 1, 2}, {2, 3}, and {1, 3, 4, 5}, the input file should be:
+```
+0,1,2
+2,3
+1,3,4,5
+```
+
+## Running Demo
+You can run demo with the sample dataset (dblp_graph.txt).
 1. To run **MoCHy-E**, type 'run_exact.sh'.
 2. To run *parallelized* **MoCHy-E**, type 'run_exact_par.sh'.
 3. To run **MoCHy-A**, type 'run_approx_ver1.sh'.
