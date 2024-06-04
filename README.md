@@ -57,4 +57,4 @@ If you use this code as part of any published research, please acknowledge our V
 ```
 
 ## Contact Information
-If you have any questions, please contact [Geon Lee](geonlee0325@kaist.ac.kr).
+If you have any questions, please contact [Geon Lee (geonlee0325@kaist.ac.kr)](mailto:geonlee0325@kaist.ac.kr).
